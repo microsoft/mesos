@@ -1,5 +1,48 @@
+# Mesos at Microsoft
 
-# Contributing
+Microsoft and Mesosphere have [partnered][announcement] to bring Mesos to Windows!
+Our goal is to help bring [DC/OS to Azure][azure],
+with full Mesos support across Azure, on both Linux and Windows.
+
+Our work is all open source, contributed directly upstream to [Apache Mesos][GitHub].
+We track our [work log on GitHub][mesos-log], where you can see our progress and current sprint.
+All our patches are posted to [Review Board][] through Mesos's [patch submission process][patch].
+
+Users of Mesos on Windows are encouraged to file bugs on [JIRA][],
+adding to the [MESOS-3094: Mesos on Windows Epic][epic].
+Alternatively, feel free to open issues against this repo to get our immediate attention.
+We are also active in the [Mesos Community][community],
+where you can find the team members [@andschwa][], [@lilyfang][], [@jeffaco][] and others.
+
+The most up-to-date documentation for building Mesos on Windows can be found [here][windows.md].
+We also have unofficial, developer oriented notes available [here][notes].
+
+While it is not yet setup, we are working to provide nightly builds of Mesos on Windows
+using a [Jenkins CI system][mesos-jenkins] hosted in Azure.
+
+[announcment]: https://azure.microsoft.com/en-us/blog/microsoft-and-mesosphere-partner-to-bring-mesos-container-orchestration-across-windows-and-linux-worlds/
+[azure]: https://mesosphere.com/azure/
+
+[GitHub]: https://github.com/apache/mesos
+[mesos-log]: https://github.com/Microsoft/mesos-log
+[review board]: https://reviews.apache.org/dashboard/
+[patch]: https://mesos.apache.org/documentation/latest/submitting-a-patch/
+
+[JIRA]: https://issues.apache.org/jira/secure/Dashboard.jspa?selectPageId=12327654
+[epic]: https://issues.apache.org/jira/browse/MESOS-3094
+[community]: https://mesos.apache.org/community/
+[@andschwa]: https://github.com/andschwa/
+[@lilyfang]: https://github.com/lilyfang/
+[@jeffaco]: https://github.com/jeffaco
+
+[windows.md]: https://github.com/apache/mesos/blob/master/docs/windows.md
+[notes]: https://github.com/Microsoft/mesos-log/tree/master/notes
+
+[mesos-jenkins]: https://github.com/Microsoft/mesos-jenkins
+
+### Fine Print
+
+#### Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -13,7 +56,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+#### Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
