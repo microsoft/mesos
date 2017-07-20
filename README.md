@@ -4,7 +4,7 @@ Microsoft and Mesosphere have [partnered][announcement] to bring Mesos to Window
 Our goal is to help bring [DC/OS to Azure][azure],
 with full Mesos support across Azure, on both Linux and Windows.
 
-Our work is all open source, contributed directly upstream to [Apache Mesos][GitHub].
+Our work is all open source, contributed directly upstream to [Apache Mesos][github].
 We track our [work log on GitHub][mesos-log], where you can see our progress and current sprint.
 All our patches are posted to [Review Board][] through Mesos's [patch submission process][patch].
 
@@ -20,10 +20,20 @@ We also have unofficial, developer oriented notes available [here][notes].
 While it is not yet setup, we are working to provide nightly builds of Mesos on Windows
 using a [Jenkins CI system][mesos-jenkins] hosted in Azure.
 
-[announcment]: https://azure.microsoft.com/en-us/blog/microsoft-and-mesosphere-partner-to-bring-mesos-container-orchestration-across-windows-and-linux-worlds/
+## [Jenkins Repo][mesos-jenkins]
+
+## [Mesos Repo][github]
+
+## [Microsoft Log / Notes][mesos-log]
+
+## [JIRA Issue Tracker][jira]
+
+## [Review Board][]
+
+[announcement]: https://azure.microsoft.com/en-us/blog/microsoft-and-mesosphere-partner-to-bring-mesos-container-orchestration-across-windows-and-linux-worlds/
 [azure]: https://mesosphere.com/azure/
 
-[GitHub]: https://github.com/apache/mesos
+[github]: https://github.com/apache/mesos
 [mesos-log]: https://github.com/Microsoft/mesos-log
 [review board]: https://reviews.apache.org/dashboard/
 [patch]: https://mesos.apache.org/documentation/latest/submitting-a-patch/
