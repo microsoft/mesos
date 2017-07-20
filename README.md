@@ -1,5 +1,11 @@
 # Mesos at Microsoft
 
+* [Jenkins Repo][mesos-jenkins]
+* [Mesos Repo][github]
+* [Microsoft Log / Notes][mesos-log]
+* [JIRA Issue Tracker][jira]
+* [Review Board][]
+
 Microsoft and Mesosphere have [partnered][announcement] to bring Mesos to Windows!
 Our goal is to help bring [DC/OS to Azure][azure],
 with full Mesos support across Azure, on both Linux and Windows.
@@ -19,16 +25,6 @@ We also have unofficial, developer oriented notes available [here][notes].
 
 While it is not yet setup, we are working to provide nightly builds of Mesos on Windows
 using a [Jenkins CI system][mesos-jenkins] hosted in Azure.
-
-## [Jenkins Repo][mesos-jenkins]
-
-## [Mesos Repo][github]
-
-## [Microsoft Log / Notes][mesos-log]
-
-## [JIRA Issue Tracker][jira]
-
-## [Review Board][]
 
 [announcement]: https://azure.microsoft.com/en-us/blog/microsoft-and-mesosphere-partner-to-bring-mesos-container-orchestration-across-windows-and-linux-worlds/
 [azure]: https://mesosphere.com/azure/
